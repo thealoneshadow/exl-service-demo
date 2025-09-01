@@ -1,0 +1,14 @@
+azure-identity==1.13.0b3
+Flask==2.2.2
+langchain==0.0.136
+openai==0.28.0
+azure-search-documents==11.4.0b3
+azure-storage-blob==12.14.1
+xlrd==1.2.0
+tiktoken==0.4.0
+faiss-cpu==1.7.4
+flask-cors==3.0.10
+python-dotenv==1.0.0
+Flask-Mail==0.9.1
+
+# run pipreqs to get reequirement.txt (delete old one)

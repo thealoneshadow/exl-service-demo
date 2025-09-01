@@ -1,0 +1,15 @@
+.bot-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+    background-color:cadetblue ;
+    color:white;
+    margin-right: 15px;
+    padding: 8px;
+    margin-top: 3px;
+}

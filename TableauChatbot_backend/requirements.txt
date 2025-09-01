@@ -1,0 +1,9 @@
+Flask==2.2.2
+Flask_Cors==3.0.10
+langchain_community==0.2.16
+langchain_core==0.2.38
+langchain_openai==0.1.23
+SQLAlchemy==1.4.39
+Werkzeug==2.2.2
+pyodbc
+# SQLAlchemy==1.4.48

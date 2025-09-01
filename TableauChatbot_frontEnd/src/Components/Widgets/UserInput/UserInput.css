@@ -1,0 +1,49 @@
+.checkboxContainer{
+    display: inline-flex;
+    padding: 12px 0px;
+    
+}
+.checkBox{    
+    padding: 0px 10px;
+    /* margin-right: 10px !important; */
+}
+.p-checkbox-box{
+    height: 18px !important;
+    width: 18px !important;
+}
+
+.p-checkbox .p-checkbox-box.p-highlight
+{
+    background-color: #04668a !important;
+    border: 0px;
+}
+
+.ml-2{
+    color:black;
+    font-size: 0.8rem;
+}
+.p-button{
+    padding: 8px 15px  !important;
+    margin-top: 10px  !important;
+    font-size: 0.8rem  !important;
+    font-weight: normal !important;
+    background-color: #015fc9 !important;
+    border: 0px;
+}
+.p-button:hover{
+    cursor:pointer;
+    
+}
+.p-button,.p-button-text{
+    background-color: #015fc9 !important;   
+    color: white !important;   
+    
+   }
+   .p-inputtext {
+    height: 30px;
+    width: 150px;
+    margin-right: 10px !important;
+    
+   }
+   
+   

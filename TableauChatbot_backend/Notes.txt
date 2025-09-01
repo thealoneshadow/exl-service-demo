@@ -1,0 +1,2 @@
+1. Activate env "conda activate sqlChatbot"
+2. run "pipreqs" to get reequirement.txt

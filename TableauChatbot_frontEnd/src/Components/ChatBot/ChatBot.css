@@ -1,0 +1,86 @@
+.app-chatbot-container {
+  width: 40%;
+}
+
+.react-chatbot-kit-chat-container {
+  width: 100%;
+}
+
+.react-chatbot-kit-chat-bot-message-arrow {
+  border-right-color: #fb4e0b !important;
+  /* border: 1px solid;
+  border-color: #FB4E0B !important; */
+}
+.react-chatbot-kit-chat-bot-message {
+  margin-left: 2px;
+  width: auto;
+  margin-right: 20%;
+  font-size: 0.8rem !important;
+  color: white !important;
+  background-color: #fb4e0b !important;
+  /* border: 1px solid;
+  border-color: #FB4E0B !important; */
+  /* background-Color: "#FB4E0B" !important; */
+}
+
+.react-chatbot-kit-user-chat-message {
+  color: black;
+  background-color: white;
+  /* background-color: f1f1f1;    */
+  font-size: 0.8rem !important;
+  /* border: 1px solid  !important;
+  border-color: #FB4E0B !important; */
+}
+
+.react-chatbot-kit-user-chat-message-arrow {
+  border-left-color: white;
+  /* border: 1px solid  !important;
+  border-color: #FB4E0B !important; */
+}
+.react-chatbot-kit-user-avatar-container {
+  background-color: #fb4e0b;
+  transform: scale(0.8);
+}
+
+.react-chatbot-kit-chat-message-container {
+  background-color: rgb(4 102 138 / 8%);
+  /* background-image: url(./../BotAvatar/chatBoticon.svg);     */
+  background-repeat: repeat-y;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #65818b;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #fb4e0b;
+}
+.react-chatbot-kit-chat-btn-send {
+  background-color: #fb4e0b !important;
+}
+.react-chatbot-kit-chat-btn-send:hover {
+  cursor: pointer;
+}
+
+.user-chat-message-datetime {
+  margin-top: 5px;
+  font-size: 0.6rem;
+  text-align: right;
+}
+.react-chatbot-kit-chat-header {
+  background-color: #fb4e0b;
+  justify-content: space-between;
+  color: white;
+  font-weight: normal;
+}
+.react-chatbot-kit-chat-header-content {
+  font-size: 15px !important;
+  /* font-family: cursive; */
+}

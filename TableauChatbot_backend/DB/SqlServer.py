@@ -8,11 +8,7 @@ class SqlServer(object):
     def __init__(self):
         try:
             self.engine = create_engine(
-                "mssql+pyodbc://@"
-                + "DESKTOP-VRMNLFD"
-                + "/"
-                + "MedicareSales"
-                + "?trusted_connection=yes&driver=ODBC+Driver+17+for+SQL+Server"
+                "postgresql+psycopg2://chatbot_ctpc_user:Wr3KpeErMep1Ztdzdeb6dsu2DGsufTOi@dpg-d2r88lndiees73e0iuug-a:5432/chatbot_ctpc"
             )
             with self.engine.connect() as conn:
                 metadata = MetaData()

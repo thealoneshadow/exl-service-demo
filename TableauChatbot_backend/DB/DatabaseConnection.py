@@ -10,7 +10,7 @@ from langchain_community.chat_message_histories import ChatMessageHistory
 ### Statefully manage chat history ###
 store = {}
 
-os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+# os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 # "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"
 
 

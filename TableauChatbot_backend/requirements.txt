@@ -6,4 +6,5 @@ langchain_openai==0.1.23
 SQLAlchemy==1.4.39
 Werkzeug==2.2.2
 psycopg2-binary
+faiss-cpu
 # SQLAlchemy==1.4.48

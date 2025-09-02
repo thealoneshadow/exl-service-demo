@@ -16,11 +16,7 @@ os.environ["OPENAI_API_KEY"] = "sk-95g0aimwbrrqFtUHq3AjT3BlbkFJqodzwW5xmE6gK4iJQ
 class SQLQuery(object):
     def __init__(self, dashboardId=1):
         db = SQLDatabase.from_uri(
-            "mssql+pyodbc://@"
-            + "DESKTOP-VRMNLFD"
-            + "/"
-            + "MedicareSales"
-            + "?trusted_connection=yes&driver=ODBC+Driver+17+for+SQL+Server"
+             "postgresql+psycopg2://chatbot_ctpc_user:Wr3KpeErMep1Ztdzdeb6dsu2DGsufTOi@dpg-d2r88lndiees73e0iuug-a:5432/chatbot_ctpc"
         )
         llm = ChatOpenAI(model="gpt-4", temperature=0)
         self.sqlAgent = create_sql_agent(

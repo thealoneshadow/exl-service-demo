@@ -19,7 +19,7 @@ class SQLQuery(object):
         db = SQLDatabase.from_uri(
              "postgresql+psycopg2://chatbot_ctpc_user:Wr3KpeErMep1Ztdzdeb6dsu2DGsufTOi@dpg-d2r88lndiees73e0iuug-a:5432/chatbot_ctpc"
         )
-        llm = ChatOpenAI(model="gpt-4", temperature=0)
+        llm = ChatOpenAI(model="gpt-4", temperature=0,api_key=os.getenv("OPENAI_API_KEY"))
         self.sqlAgent = create_sql_agent(
             llm,
             db=db,
